@@ -31,4 +31,6 @@ class RecipeViewModel (application: Application) : AndroidViewModel(application)
     fun delete(recipe: Recipe) = viewModelScope.launch {
         repository.delete(recipe)
     }
+
+    }
 }

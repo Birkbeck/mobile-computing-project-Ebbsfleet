@@ -12,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.Observer
 import androidx.activity.viewModels
 
+
 class CrudActivity : AppCompatActivity() {
 
     private val recipeViewModel: RecipeViewModel by viewModels()
